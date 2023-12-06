@@ -1,4 +1,4 @@
-import { Typewriter, useTypewriter } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 
 
 const Hero: React.FC = () => {
