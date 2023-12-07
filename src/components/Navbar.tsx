@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {showNav && (
-        <div className="ml-0 flex flex-col fixed left-0 top-0 max-sm:w-[60%] w-[40%] border-r border-r-gray-900 h-full uppercase bg-black m-4 z-10">
+        <div className="ml-0 flex flex-col fixed left-0 top-0 max-sm:w-[80%] w-[70%] border-r border-r-gray-900 h-full uppercase bg-black m-4 z-10">
           <h1 className="w-full text-3xl font-bold text-[#00df9a] z-10 ml-2 hover:text-white duration-300">
             REACT.
           </h1>
