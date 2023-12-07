@@ -8,7 +8,7 @@ const Pricing: React.FC = () => {
       <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 gap-14 max-sm:gap-y-32 max-sm:w-full">
         <div className="card">
           <div className="card-img">
-            <img src={singleUserImg}s alt="user icon" className="w-[100px]" />
+            <img src={singleUserImg} alt="user icon" className="w-[100px]" />
           </div>
           <h3 className="user-name ">Single User</h3>
           <h1 className="price">$149</h1>
