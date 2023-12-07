@@ -5,7 +5,7 @@ import tripleUserImg from "../assets/triple.png"
 const Pricing: React.FC = () => {
   return (
     <div className="[100vh] pt-40 pb-20 bg-white px-6 max-md:w-[100vw]">
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 max-sm:gap-y-32 max-sm:w-full">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 gap-14 max-sm:gap-y-32 max-sm:w-full">
         <div className="card">
           <div className="card-img">
             <img src={singleUserImg} alt="user icon" className="w-[100px]" />
