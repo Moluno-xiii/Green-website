@@ -5,7 +5,7 @@ import tripleUserImg from "../assets/triple.png"
 const Pricing: React.FC = () => {
   return (
     <div className="[100vh] pt-40 pb-20 bg-white px-6 max-md:w-[100vw]">
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 max-sm:gap-y-32 max-sm:w-full">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 gap-14 max-sm:gap-y-32 max-sm:w-full">
         <div className="card">
           <div className="card-img">
             <img src={singleUserImg} alt="user icon" className="w-[100px]" />
@@ -36,7 +36,7 @@ const Pricing: React.FC = () => {
             Start Trial
           </button>
         </div>
-        <div className="card md:justify-self-center md:max-w-[100vw] lg:w-[50vw] md:left-[25vw] md:mt-10 md:w-[40vw]">
+        <div className="card divide-cards">
           <div className="card-img">
             <img src={tripleUserImg} alt="user icon" className="w-[100px]" />
           </div>

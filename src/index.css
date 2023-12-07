@@ -16,7 +16,7 @@ header-lists {
 }
 
 .card {
-  @apply relative text-black bg-white sm:h-[40dvh] md:h-[412px] text-center flex-col pt-14 rounded-lg shadow-2xl 2xl:w-full max-sm:w-full max-sm:py-10 sm:w-[60vw] md:w-[40vw] mx-auto md:min-h-[30dvh];
+  @apply relative text-black bg-white sm:h-[40dvh] md:h-[412px] text-center flex-col pt-14 rounded-lg shadow-2xl xl:w-full max-sm:w-full max-sm:py-10 sm:w-[60vw] md:w-[40vw] mx-auto md:min-h-[30dvh];
 }
 
 #third-card {
@@ -37,5 +37,15 @@ header-lists {
 
 .btn-card{
   @apply text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border sm:w-40 md:text-xl md:mt-8;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .divide-cards {
+    justify-self: center;
+    max-width: 100vw;
+    width: 50vw;
+    left: 23vw;
+    margin-top: 10px;
+  }
 }
 /* ebebeb dee2e6 dee2e6*/

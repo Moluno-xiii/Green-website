@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Hero: React.FC = () => {
 
     return (
-      <div className="sm:h-[90dvh] md:h-[80dvh] h-[75dvh] flex mx-2 sm:mx-4">
+      <div className="sm:h-[90dvh] md:h-[80dvh] md:min-h-[80dvh] h-[75dvh] flex mx-2 sm:mx-4">
         <div className="flex flex-col justify-center items-center text-center flex-1 text-white">
           <h3 className="text-[#00df9a] uppercase sm:text-2xl lg:text-3xl font-bold sm:mb-2 mb-2 2xl:text-5xl">
             Growing with data analytics

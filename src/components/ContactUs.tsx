@@ -6,7 +6,7 @@ const ContactUs: React.FC = () => {
           <h1 className="font-bold lg:text-4xl 2xl:text-6xl text-xl md:text-2xl max-xl:text-center">
             Want tips & tricks to optimize your flow?{" "}
           </h1>
-          <p className="text-sm max-lg:text-center md:text-base lg:text-xl 2xl:text-4xl">
+          <p className="text-sm max-xl:text-center md:text-base lg:text-xl 2xl:text-4xl">
             Sign up to our newsletter and stay up to date
           </p>
         </div>
