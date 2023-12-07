@@ -2,7 +2,7 @@ import PcImg from '../assets/laptop.jpg'
 
 const GetStarted: React.FC = () => {
     return (
-      <section className="bg-white text-black lg:h-[102vh] flex xl:h-[100vh]">
+      <section className="bg-white text-black lg:h-[102vh] flex xl:h-[100vh]" id='get-started'>
         <div className="grid md:grid-cols-2 gap-14 py-10 mx-auto max-w-7xl 2xl:max-w-[2400px] px-4">
           <div className="w-full h-full flex justify-center flex-col">
             <img src={PcImg} alt="pc image" className="w-full " />

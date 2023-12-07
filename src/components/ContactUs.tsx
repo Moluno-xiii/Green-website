@@ -1,6 +1,6 @@
 const ContactUs: React.FC = () => {
   return (
-    <section className="h-[40dvh] md:h-[250px] 2xl:h-[23dvh] flex items-center">
+    <section className="h-[40dvh] md:h-[250px] 2xl:h-[23dvh] flex items-center" id="contact">
       <div className="mx-2 lg:mx-auto grid md:grid-cols-2 text-white  max-w-7xl 2xl:max-w-[2500px] gap-4 w-full">
         <div className="">
           <h1 className="font-bold lg:text-4xl 2xl:text-6xl text-xl md:text-2xl max-xl:text-center">
