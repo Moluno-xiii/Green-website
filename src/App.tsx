@@ -8,7 +8,7 @@ import Pricing from './components/Pricing'
 function App() {
 
   return (
-    <div>
+    <div className=''>
       <div className='h-[100dvh]'>
 
       <Navbar />

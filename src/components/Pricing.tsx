@@ -4,8 +4,8 @@ import tripleUserImg from "../assets/triple.png"
 
 const Pricing: React.FC = () => {
   return (
-    <div className="[100vh] pt-40 pb-20 bg-white px-6">
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-10 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100vw] 2xl:gap-28 max-sm:gap-y-32 max-sm:w-full">
+    <div className="[100vh] pt-40 pb-20 bg-white px-6 max-md:w-[100vw]">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 max-sm:gap-y-32 max-sm:w-full">
         <div className="card">
           <div className="card-img">
             <img src={singleUserImg} alt="user icon" className="w-[100px]" />
@@ -17,7 +17,7 @@ const Pricing: React.FC = () => {
             <li className="list-style">1 User Allowed</li>
             <li className="list-style">Send up to 2GB</li>
           </ul>
-          <button className="text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border">
+          <button className="btn-card">
             Start Trial
           </button>
         </div>
@@ -32,11 +32,11 @@ const Pricing: React.FC = () => {
             <li className="list-style"> 3 Users Allowed</li>
             <li className="list-style">Send up to 10GB</li>
           </ul>
-          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border">
+          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border sm:w-40">
             Start Trial
           </button>
         </div>
-        <div className="card lg:justify-self-center lg:max-w-[100vw] lg:w-[50vw] lg:left-[25vw] lg:mt-10">
+        <div className="card md:justify-self-center md:max-w-[100vw] lg:w-[50vw] md:left-[25vw] md:mt-10 md:w-[40vw]">
           <div className="card-img">
             <img src={tripleUserImg} alt="user icon" className="w-[100px]" />
           </div>
@@ -47,7 +47,7 @@ const Pricing: React.FC = () => {
             <li className="list-style">10 Users Allowed</li>
             <li className="list-style">Send up to 20GB</li>
           </ul>
-          <button className="text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border">
+          <button className="btn-card">
             Start Trial
           </button>
         </div>

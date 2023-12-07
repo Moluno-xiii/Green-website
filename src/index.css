@@ -16,7 +16,7 @@ header-lists {
 }
 
 .card {
-  @apply relative text-black bg-white sm:h-[60dvh] text-center flex-col pt-14 rounded-lg shadow-2xl 2xl:w-full max-sm:w-full max-sm:py-10;
+  @apply relative text-black bg-white sm:h-[40dvh] md:h-[412px] text-center flex-col pt-14 rounded-lg shadow-2xl 2xl:w-full max-sm:w-full max-sm:py-10 sm:w-[60vw] md:w-[40vw] mx-auto md:min-h-[30dvh];
 }
 
 #third-card {
@@ -24,14 +24,18 @@ header-lists {
 }
 
 .list-style{
-  @apply border-b border-slate-400 py-2 font-semibold
+  @apply border-b border-slate-400 py-2 font-semibold md:text-2xl
 }
 
 .price{
-  @apply font-bold text-2xl my-4
+  @apply font-bold text-2xl my-4 md:text-3xl
 }
 
 .user-name{
-  @apply font-bold text-xl
+  @apply font-bold text-xl md:text-3xl
+}
+
+.btn-card{
+  @apply text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border sm:w-40 md:text-xl md:mt-8;
 }
 /* ebebeb dee2e6 dee2e6*/
