@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           </h1>
           <p className="sm:mb-5 text-lg sm:text-3xl lg:text-5xl font-semibold 2xl:text-7xl">
             Fast, flexible financing for{" "}
-            <span className="text-slate-500">{<Typewriter words={['BTB','D2C','SaaS', "API's" ]} loop = {false} deleteSpeed={100} typeSpeed={200}/>}</span>{" "}
+            <span className="text-slate-500">{<Typewriter words={['BTB','D2C','SaaS', "API's" ]} loop = {1} deleteSpeed={100} typeSpeed={200}/>}</span>{" "}
           </p>
           <p className="text-slate-500 font-bold md:text-xl max-w-[700px] 2xl:text-5xl 2xl:max-w-[1300px] 2xl:leading-[50px]">
             Monitor your data analytics to increase revenue for BTB, BTC, & SaaS
