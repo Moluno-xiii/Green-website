@@ -23,7 +23,7 @@ const Pricing: React.FC = () => {
         </div>
         <div className="card" id="third-card">
           <div className="card-img">
-            <img src={doubleUserImg} alt="user icon" className="w-[100px]" />
+            <img src={doubleUserImg} alt="user-icon" className="w-[100px]" />
           </div>
           <h3 className="user-name">Partnership</h3>
           <h1 className="price">$199</h1>
