@@ -3,6 +3,7 @@ import ContactUs from './components/ContactUs'
 import GetStarted from './components/GetStarted'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Pricing from './components/Pricing'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       </div>
       <GetStarted />
       <ContactUs />
+      <Pricing />
     </div>
   )
 }
