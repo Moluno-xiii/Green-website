@@ -38,4 +38,24 @@ header-lists {
 .btn-card{
   @apply text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border sm:w-40 md:text-xl md:mt-8;
 }
+
+/* .divide-cards{
+  @apply md:justify-self-center md:max-w-[100vw] lg:w-[50vw] md:left-[23vw] md:mt-10 md:w-[50vw] xl:text-white
+} */
 /* ebebeb dee2e6 dee2e6*/
+
+/* @media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .divide-cards {
+    @apply  @apply justify-self-center max-w-[100vw] w-[50vw] left-[23vw] mt-10  xl:text-white
+  }
+} */
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .divide-cards {
+    justify-self: center;
+    max-width: 100vw;
+    width: 50vw;
+    left: 23vw;
+    margin-top: 10px;
+  }
+}
