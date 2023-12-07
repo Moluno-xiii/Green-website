@@ -1,47 +1,55 @@
 import singleUserImg from "../assets/single.png";
+import doubleUserImg from "../assets/double.png"
+import tripleUserImg from "../assets/triple.png"
 
 const Pricing: React.FC = () => {
   return (
-    <div className=" h-[100vh]">
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 mx-auto items-center bg-white h-full">
-        <div className="relative bg-blue-500 h-[60dvh] text-center  fex flex-col ites-cente">
-          <div className="absolute flex w-full justify-center top-[-10rem]">
-            <img src={singleUserImg} alt="user icon" className="w-[250px]" />
+    <div className="[100vh] pt-40 pb-20 bg-white px-6">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-10 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100vw] 2xl:gap-28 max-sm:gap-y-32 max-sm:w-full">
+        <div className="card">
+          <div className="card-img">
+            <img src={singleUserImg} alt="user icon" className="w-[100px]" />
           </div>
-          <h3 className="font-bold ">Single User</h3>
-          <h1 className="font-bold">$149</h1>
+          <h3 className="user-name ">Single User</h3>
+          <h1 className="price">$149</h1>
           <ul className="font-semibold px-6">
-            <li className="border-b border-slate-600">500 GB Storage</li>
-            <li className="border-b border-slate-600">1 User Allowed</li>
-            <li className="border-b border-slate-600">Send up to 2GB</li>
+            <li className="list-style">500 GB Storage</li>
+            <li className="list-style">1 User Allowed</li>
+            <li className="list-style">Send up to 2GB</li>
           </ul>
-          <button className="text-black bg-[#00df9a]">Start Trial</button>
+          <button className="text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border">
+            Start Trial
+          </button>
         </div>
-        <div className="relative">
-          <div className="absolute flex justify-center top-[-20px]">
-            <img src={singleUserImg} alt="user icon" className="w-[250px]" />
+        <div className="card" id="third-card">
+          <div className="card-img">
+            <img src={doubleUserImg} alt="user icon" className="w-[100px]" />
           </div>
-          <h3 className="font-bold">Partnership</h3>
-          <h1 className="font-bold">$199</h1>
+          <h3 className="user-name">Partnership</h3>
+          <h1 className="price">$199</h1>
           <ul className="font-semibold px-6">
-            <li className="border-b border-slate-600">1 TB Storage</li>
-            <li className="border-b border-slate-600"> 3 Users Allowed</li>
-            <li className="border-b border-slate-600">Send up to 10GB</li>
+            <li className="list-style">1 TB Storage</li>
+            <li className="list-style"> 3 Users Allowed</li>
+            <li className="list-style">Send up to 10GB</li>
           </ul>
-          <button className="text-[#00df9a] bg-black">Start Trial</button>
+          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border">
+            Start Trial
+          </button>
         </div>
-        <div className="relative bg-slate-400">
-          <div className="absolute flex justify-center top-[-20px]">
-            <img src={singleUserImg} alt="user icon" className="w-[250px]" />
+        <div className="card lg:justify-self-center lg:max-w-[100vw] lg:w-[50vw] lg:left-[25vw] lg:mt-10">
+          <div className="card-img">
+            <img src={tripleUserImg} alt="user icon" className="w-[100px]" />
           </div>
-          <h3 className="font-bold">Single User</h3>
-          <h1 className="font-bold">$149</h1>
+          <h3 className="user-name mt-2">Single User</h3>
+          <h1 className="price">$149</h1>
           <ul className="font-semibold px-6">
-            <li className="border-b border-slate-600">5 TB Storage</li>
-            <li className="border-b border-slate-600">10 Users Allowed</li>
-            <li className="border-b border-slate-600">Send up to 20GB</li>
+            <li className="list-style">5 TB Storage</li>
+            <li className="list-style">10 Users Allowed</li>
+            <li className="list-style">Send up to 20GB</li>
           </ul>
-          <button className="text-black bg-[#00df9a]">Start Trial</button>
+          <button className="text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border">
+            Start Trial
+          </button>
         </div>
       </div>
     </div>
