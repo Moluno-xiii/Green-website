@@ -39,6 +39,7 @@ header-lists {
   @apply text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border sm:w-40 md:text-xl md:mt-8;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .divide-cards {
     justify-self: center;
@@ -47,4 +48,4 @@ header-lists {
     left: 23vw;
     margin-top: 10px;
   }
-}
+

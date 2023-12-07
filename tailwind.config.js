@@ -3,7 +3,9 @@ export default {
   theme: {
     extend: {
       screens: {
+
         "3xl": "2500px",
+
       },
     },
   },

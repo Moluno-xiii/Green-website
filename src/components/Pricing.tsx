@@ -32,7 +32,7 @@ const Pricing: React.FC = () => {
             <li className="list-style"> 3 Users Allowed</li>
             <li className="list-style">Send up to 10GB</li>
           </ul>
-          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border sm:w-40">
+          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border sm:w-40 md:mt-8">
             Start Trial
           </button>
         </div>
