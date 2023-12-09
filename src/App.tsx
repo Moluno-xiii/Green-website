@@ -17,6 +17,9 @@ function App() {
       <GetStarted />
       <ContactUs />
       <Pricing />
+      <div className='h-[10000px]'>
+        faang
+      </div>
     </div>
   )
 }
