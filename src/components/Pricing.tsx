@@ -5,7 +5,7 @@ import tripleUserImg from "../assets/triple.png"
 const Pricing: React.FC = () => {
   return (
     <div className="[100vh] pt-40 pb-20 bg-white px-6 max-md:w-[100vw]">
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 gap-14 max-sm:gap-y-32 max-sm:w-full">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-center h-full sm:gap-y-20 2xl:max-w-[3200px] 2xl:px-40 2xl:mx-auto sm:w-[100%] 2xl:gap-28 gap-14 max-sm:gap-y-32 max-sm:w-full 3xl:h-[800px] xl:h-[800px] 3xl:max-w-[2700px]">
         <div className="card">
           <div className="card-img">
             <img src={singleUserImg} alt="user icon" className="w-[100px]" />
@@ -17,9 +17,7 @@ const Pricing: React.FC = () => {
             <li className="list-style">1 User Allowed</li>
             <li className="list-style">Send up to 2GB</li>
           </ul>
-          <button className="btn-card">
-            Start Trial
-          </button>
+          <button className="btn-card">Start Trial</button>
         </div>
         <div className="card" id="third-card">
           <div className="card-img">
@@ -32,7 +30,7 @@ const Pricing: React.FC = () => {
             <li className="list-style"> 3 Users Allowed</li>
             <li className="list-style">Send up to 10GB</li>
           </ul>
-          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border sm:w-40 md:mt-8">
+          <button className="text-[#00df9a] bg-black mt-4 py-2 max-sm:w-32 rounded-lg hover:border-black hover:text-[#00df9a] hover:bg-transparent duration-500 border sm:w-40 md:mt-8 3xl:mt-20 3xl:w-60 3xl:text-4xl">
             Start Trial
           </button>
         </div>
@@ -47,9 +45,7 @@ const Pricing: React.FC = () => {
             <li className="list-style">10 Users Allowed</li>
             <li className="list-style">Send up to 20GB</li>
           </ul>
-          <button className="btn-card">
-            Start Trial
-          </button>
+          <button className="btn-card">Start Trial</button>
         </div>
       </div>
     </div>
