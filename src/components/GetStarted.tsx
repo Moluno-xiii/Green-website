@@ -2,20 +2,23 @@ import PcImg from '../assets/laptop.jpg'
 
 const GetStarted: React.FC = () => {
     return (
-      <section className="bg-white text-black lg:h-[102vh] flex xl:min-h-[100dvh] xl:h-[1000px]" id='get-started'>
+      <section
+        className="bg-white text-black lg:h-[800px] lg:min-h-[800px] flex xl:min-h-[1000px] xl:h-[1000px]"
+        id="get-started"
+      >
         <div className="grid md:grid-cols-2 gap-14 py-10 mx-auto max-w-7xl 2xl:max-w-[2400px] px-4">
           <div className="w-full h-full flex justify-center flex-col">
             <img src={PcImg} alt="pc image" className="w-full " />
           </div>
 
           <div className="flex flex-col justify-center ">
-            <p className="text-[#00df9a] uppercase font-bold text-lg max-sm:text-center md:text-xl lg:text-2xl xl:text-3x 2xl:text-4xl">
+            <p className="text-[#00df9a] uppercase font-bold text-lg  md:text-xl lg:text-2xl xl:text-3x 2xl:text-4xl max-lg:text-center">
               Data analytics dashboard
             </p>
-            <h3 className="font-extrabold capitalize text-3xl sm:text-5xl xl:text-5xl xl:mt-4 max-sm:text-center md:text-3xl lg:mt-2 3xl:text-7xl">
+            <h3 className="font-extrabold capitalize text-xl sm:text-5xl xl:text-5xl xl:mt-4 max-lg:text-center md:text-3xl lg:mt-2 3xl:text-7xl">
               manage data analytics centrally
             </h3>
-            <p className="font-semibold mt-3 xl:mt-5 mx-3 lg:text-xl xl:text-2xl 2xl:text-4xl 3xl:leading-[50px]">
+            <p className=" mt-3 xl:mt-5 mx-3 lg:text-xl xl:text-2xl 2xl:text-4xl 3xl:leading-[50px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               repellendus veritatis omnis est dignissimos fuga, odit excepturi
               perferendis accusantium nostrum non tempore maxime laudantium?

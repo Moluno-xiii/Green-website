@@ -1,7 +1,7 @@
 const ContactUs: React.FC = () => {
   return (
     <section
-      className="h-[40dvh] md:h-[250px] 2xl:h-[300px] flex items-center  2xl:mx-10"
+      className="h-[270px] min-h-[270px] 2xl:h-[300px] 2xl:min-h-[300px] flex items-center  xl:mx-10 lg:mx-5"
       id="contact"
     >
       <div className="mx-2 lg:mx-auto grid md:grid-cols-2 text-white  max-w-7xl 2xl:max-w-[2500px] gap-4 w-full">
@@ -20,7 +20,7 @@ const ContactUs: React.FC = () => {
               placeholder="Enter your email"
               className="text-slate-900 bg-white py-2 text-lg rounded-lg px-2 focus:outline-[#00df9a] self-center flex-1 md:mr-3 2xl:py-3 2xl:text-2xl 3xl:py-6 3xl:text-4xl 3xl:w-60 sm:w-[70vw] w-[90vw]"
             />
-            <button className="sm:py-3 max-md:mt-3 rounded-lg hover:bg-white hover:text-[#00df9a] duration-500 cursor-pointer text-black bg-[#00df9a] w-28 max-md:mx-auto self-center 2xl:py-3 2xl:text-2xl 2xl:w-40 3xl:py-6 3xl:text-4xl 3xl:w-60 py-2">
+            <button className="sm:py-3 max-md:mt-3 rounded-lg hover:bg-white hover:text-[#00df9a] duration-500 cursor-pointer text-black bg-[#00df9a] w-28 max-md:mx-auto self-center 2xl:py-3 2xl:text-2xl 2xl:w-40 3xl:py-6 3xl:text-4xl 3xl:w-60 py-2 mb-2">
               Notify me
             </button>
           </div>

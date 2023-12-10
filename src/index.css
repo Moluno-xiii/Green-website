@@ -5,6 +5,7 @@
 body {
   background-color: #000300;
   color: coral;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 header-lists {
@@ -16,7 +17,7 @@ header-lists {
 }
 
 .card {
-  @apply relative text-black bg-white  sm:h-[412px] text-center flex-col pt-14 rounded-lg shadow-2xl xl:w-full max-sm:w-full max-sm:py-10 sm:w-[60vw] md:w-[40vw] mx-auto md:min-h-[30dvh] 3xl:min-h-[700px] xl:min-h-[500px];
+  @apply relative text-black bg-white  sm:h-[412px] text-center flex-col pt-14 rounded-lg shadow-2xl xl:w-full max-sm:w-full max-sm:py-10 sm:w-[60vw] md:w-[40vw] mx-auto md:min-h-[30dvh] 3xl:min-h-[700px] xl:min-h-[500px] hover:scale-110 duration-300 max-sm:max-w-[400px] md:max-w-[370px] lg:max-w-[370px] 2xl:max-w-[420px] 3xl:max-w-[650px];
 }
 
 #third-card {
@@ -36,7 +37,7 @@ header-lists {
 }
 
 .btn-card{
-  @apply text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border sm:w-40 md:text-xl md:mt-8 3xl:mt-20 3xl:w-60 3xl:text-4xl;
+  @apply text-black bg-[#00df9a] mt-4 py-2 max-sm:w-32 rounded-lg hover:border-[#00df9a] hover:text-black hover:bg-transparent duration-300 border sm:w-40 md:text-xl md:mt-8 3xl:mt-20 3xl:w-60 3xl:text-4xl 3xl:py-6;
 }
 
 .btn-navbar{
@@ -52,6 +53,8 @@ header-lists {
     width: 45vw;
     left: 23vw;
     margin-top: 10px;
+    @apply md:max-w-[370px] 2xl:max-w-[420px] 3xl:max-w-[650px]
   }
+
 
 }
